@@ -1,0 +1,14 @@
+{
+    "name": "arcgis-wab-widget-template",
+    "platform": "HTML",
+    "version": "1.0",
+    "wabVersion": "2.19",
+    "author": "YOUR NAME HERE <yourname@youraddress>",
+    "description": "Just trying out the widget creation process.",
+    "properties": {
+        "hasLocale": false,
+        "hasStyle": false,
+        "hasConfig": false,
+        "hasSettingPage": false
+    }
+  }
