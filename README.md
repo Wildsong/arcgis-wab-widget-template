@@ -5,11 +5,19 @@ for "ArcGIS Web AppBuilder, Developer Edition" (WABDE)
 
 ## Development
 
-Set up WABDE on your local machine and get it running. I assume you will get it running here: <http://localhost:3344/webappbuilder>
+### Prerequisites
 
-Clone this repo into the WABDE instance.
+You can run WABDE anywhere you like. It's not hard, you have to get NodeJS installed and running. I am using Docker.
 
-So for example on my machine I have C:/Users/bwilson/source/repos/ArcGISWebAppBuilder/
+Set up WABDE on your local machine and get it running. We keep the installer locally in I:/Installers/arcgis/WAB.
+(Some widgets are there too.) It unzips into a folder ArcGISWebAppBuilder/
+
+WABDE is a NodeJS app so first install NodeJs.
+I assume you will get WABDE running here: <http://localhost:3344/webappbuilder>
+On Windows, "getting it running"" means download, unpack, and run "start.bat".
+
+Clone this repo into your nice new WABDE instance.
+For example on my machine I put WABDE in C:/Users/bwilson/source/repos/ArcGISWebAppBuilder/
 and the widget goes in client/stemapp/widgets.
 
 ```bash
@@ -21,12 +29,13 @@ Copy the app config file and edit it,
 
 ```bash
 cd ..
-cp sample-configs/config-demo.json configs/dev.json
+cp dev.json ../configs/dev.json
 ```
 
-Edit dev.json file to add the new widget.
+Edit dev.json file to add the new widget you are creating.
 
-Use this URL to access your widget for testing. <https://localhost:3344/webappbuilder/stemapp/?config=configs/dev.json>
+Use this URL to access your widget for testing. 
+<http://localhost:3344/webappbuilder/stemapp/?config=configs/dev.json>
 
 ## References
 

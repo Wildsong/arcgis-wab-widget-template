@@ -1,0 +1,9 @@
+/*
+ Set hasSettingStyle to true to enable this
+*/
+
+h1 {
+    font-family: fantasy;
+    font-size: large;
+    color: green;
+}

@@ -6,9 +6,14 @@
     "author": "YOUR NAME HERE <yourname@youraddress>",
     "description": "Just trying out the widget creation process.",
     "properties": {
+        "inPanel": true,
         "hasLocale": false,
-        "hasStyle": false,
+        "hasStyle": true,
         "hasConfig": false,
-        "hasSettingPage": false
+        "hasUIFile": true,
+        "hasSettingPage": true,
+        "hasSettingUIFile": true,
+        "hasSettingStyle": true,
+        "isController": false
     }
   }
