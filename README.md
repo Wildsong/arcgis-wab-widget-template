@@ -1,41 +1,21 @@
-# arcgis-wabde-widget-template
+# arcgis-wab-widget-template
 
 Use this template as the starting point for developing a new widget
 for "ArcGIS Web AppBuilder, Developer Edition" (WABDE)
+
+![Screenshot of widget template](/images/screenshot.png?raw=true "widget template")
 
 ## Development
 
 ### Prerequisites
 
-You can run WABDE anywhere you like. It's not hard, you have to get NodeJS installed and running. I am using Docker.
+You can run WABDE anywhere you like. It's not hard, you have to get NodeJS 
+installed and running. I am using Docker and will assume you do, too.
 
-Set up WABDE on your local machine and get it running. We keep the installer locally in I:/Installers/arcgis/WAB.
-(Some widgets are there too.) It unzips into a folder ArcGISWebAppBuilder/
+You can use [wildsong/wabde](https://hub.docker.com/r/wildsong/wabde) from Docker hub
 
-WABDE is a NodeJS app so first install NodeJs.
-I assume you will get WABDE running here: <http://localhost:3344/webappbuilder>
-On Windows, "getting it running"" means download, unpack, and run "start.bat".
-
-Clone this repo into your nice new WABDE instance.
-For example on my machine I put WABDE in C:/Users/bwilson/source/repos/ArcGISWebAppBuilder/
-and the widget goes in client/stemapp/widgets.
-
-```bash
-cd /c/Users/bwilson/source/repos/ArcGISWebAppBuilder/client/stemapp/widgets
-git clone git@Wildsong/arcgis-wabde-widget-template.git MyNewWidget
-```
-
-Copy the app config file and edit it,
-
-```bash
-cd ..
-cp dev.json ../configs/dev.json
-```
-
-Edit dev.json file to add the new widget you are creating.
-
-Use this URL to access your widget for testing. 
-<http://localhost:3344/webappbuilder/stemapp/?config=configs/dev.json>
+The related github is at [Wildsong/docker-ArcGISWebAppBuilder](https://github.com/Wildsong/docker-ArcGISWebAppBuilder)
+There are more notes on the workflow for widget development in the README there too.
 
 ## References
 
